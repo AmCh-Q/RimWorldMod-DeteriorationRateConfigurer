@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DRConf.Name>Deterioration Rate Configurer</DRConf.Name>
+  <DRConf.Search1>Search for items</DRConf.Search1>
+  <DRConf.Search2>Items found: </DRConf.Search2>
+  <DRConf.QuickSetNum>Quick Config Number</DRConf.QuickSetNum>
+  <DRConf.QuickSetButton>Set All Values below to </DRConf.QuickSetButton>
+  <DRConf.QuickMultiplyButton>Multiply All Values below by </DRConf.QuickMultiplyButton>
+  <DRConf.QuickAddButton>Add All Values below by </DRConf.QuickAddButton>
+  <DRConf.QuickSubButton>Subtract All Values below by </DRConf.QuickSubButton>
+</LanguageData>

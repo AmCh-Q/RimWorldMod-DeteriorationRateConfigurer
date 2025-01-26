@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DRConf.Name>设置物品腐败率</DRConf.Name>
+  <DRConf.Search1>搜索物品：</DRConf.Search1>
+  <DRConf.Search2>搜索到项数：</DRConf.Search2>
+  <DRConf.QuickSetNum>快速调整数字</DRConf.QuickSetNum>
+  <DRConf.QuickSetButton>将以下所有项设置为</DRConf.QuickSetButton>
+  <DRConf.QuickMultiplyButton>将以下所有项乘以</DRConf.QuickMultiplyButton>
+  <DRConf.QuickAddButton>将以下所有项加上</DRConf.QuickAddButton>
+  <DRConf.QuickSubButton>将以下所有项减去</DRConf.QuickSubButton>
+</LanguageData>

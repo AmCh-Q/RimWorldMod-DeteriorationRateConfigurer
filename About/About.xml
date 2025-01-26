@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Deterioation Rate Configurer</name>
+  <author>AmCh</author>
+  <packageId>AmCh.DeterioationRateConfigurer</packageId>
+  <url></url>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <description>Configures Deterioration Rate of items, that's it.
+Restart not required to change item deterioration rates.
+
+This is my third C# mod, let me know if you notice any incompatibilities.</description>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+  </loadAfter>
+</ModMetaData>
