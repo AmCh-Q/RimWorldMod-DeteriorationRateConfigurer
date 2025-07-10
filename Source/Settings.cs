@@ -1,7 +1,7 @@
-﻿using System;
+﻿using RimWorld;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using RimWorld;
 using Verse;
 
 namespace Deterioration_Rate_Configurer
@@ -62,8 +62,13 @@ namespace Deterioration_Rate_Configurer
 				defs = dflt_detValues.Keys;
 			else
 				defs = dflt_detValues.Keys.Where(def
+#if v1_3 || v1_4 || v1_5
 					=> def.defName.IndexOf(str, StringComparison.InvariantCultureIgnoreCase) >= 0
 					|| def.label.IndexOf(str, StringComparison.InvariantCultureIgnoreCase) >= 0);
+#else
+					=> def.defName.Contains(str, StringComparison.InvariantCultureIgnoreCase)
+					|| def.label.Contains(str, StringComparison.InvariantCultureIgnoreCase));
+#endif
 			return [.. defs.OrderBy(def => def.label).ThenBy(def => def.defName)];
 		}
 	}

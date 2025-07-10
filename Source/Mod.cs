@@ -1,10 +1,8 @@
 ﻿using RimWorld;
-using System;
 using System.Reflection;
-using UnityEngine;
 using Verse;
 
-[assembly: AssemblyVersion("1.0.1.0")]
+[assembly: AssemblyVersion("1.0.2.0")]
 namespace Deterioration_Rate_Configurer
 {
 	public partial class DeteriorationRateConfigurer : Mod

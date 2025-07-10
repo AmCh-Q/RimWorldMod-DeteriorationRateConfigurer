@@ -14,12 +14,11 @@ Additionally, the property BaseIntermediateOutputPath has to be set here, explan
 		https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets#pack-target -->
 		<Authors>AmCh</Authors>
 		<Copyright>Copyright © AmCh 2025</Copyright>
-		<PackageLicenseFile>..\LICENSE.txt</PackageLicenseFile>
-		<RepositoryUrl>https://github.com/AmCh-Q/RimWorldMod_Configurable-Deconstruct-Percentage.git</RepositoryUrl>
+		<RepositoryUrl>https://github.com/AmCh-Q/RimWorldMod_RimWorldMod-DeteriorationRateConfigurer.git</RepositoryUrl>
 		<!-- Common MSBuild project properties
 		https://learn.microsoft.com/en-us/visualstudio/msbuild/common-msbuild-project-properties -->
-		<RootNamespace>Configurable_Deconstruct_Percentage</RootNamespace>
-		<AssemblyName>Configurable Deconstruct Percentage</AssemblyName>
+		<RootNamespace>Deterioration_Rate_Configurer</RootNamespace>
+		<AssemblyName>Deterioration Rate Configurer</AssemblyName>
 		<OutDir>..\$(MSBuildProjectName)\Assemblies</OutDir>
 		<BaseIntermediateOutputPath>obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
 		<ErrorReport>prompt</ErrorReport>
